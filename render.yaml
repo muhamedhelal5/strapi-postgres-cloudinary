@@ -21,8 +21,8 @@ services:
       - key: DATABASE_URL
         fromDatabase:
           name: strapi
-          property:postgres://default:6xqcpUh9kMmf@ep-spring-field-79963477-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require
-      - key: JWT_SECRET
+          property:JH
+          - key: JWT_SECRET
         generateValue: true
       - key: ADMIN_JWT_SECRET
         generateValue: true
