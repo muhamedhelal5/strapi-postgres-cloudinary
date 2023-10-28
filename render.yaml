@@ -20,7 +20,7 @@ services:
         sync: false
       - key: DATABASE_URL
         fromDatabase:
-          name: verceldb
+          name: postgress
           property:  JH
           - key: JWT_SECRET
         generateValue: true
